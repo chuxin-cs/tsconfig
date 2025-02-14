@@ -31,5 +31,10 @@
   "bugs": {
     "url": "https://github.com/chuxin-cs/vue-ui/issues"
   },
+  "files": [
+    "dist/*.js",
+    "package.json",
+    "README.md"
+  ],
   "homepage": "https://github.com/chuxin-cs/vue-ui#readme"
 }
