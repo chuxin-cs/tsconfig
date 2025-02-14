@@ -1,0 +1,24 @@
+{
+  "name": "@chu-xin/vue-ui",
+  "version": "1.0.0",
+  "description": "A is Vue\"2 Business Component Library",
+  "scripts": {
+    "dev": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuxin-cs/vue-ui.git"
+  },
+  "keywords": [
+    "@chu-xin/vue-ui",
+    "vue-ui",
+    "ui",
+    "components"
+  ],
+  "author": "chuxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuxin-cs/vue-ui/issues"
+  },
+  "homepage": "https://github.com/chuxin-cs/vue-ui#readme"
+}
