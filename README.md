@@ -16,7 +16,7 @@ npm i @chu-xin/ui
 </template>
 
 <script>
-import { Button } from '@chu-xin/components'
+import { Button } from '@chu-xin/ui'
 
 export default {
   components: {Button}
