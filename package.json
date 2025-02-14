@@ -6,15 +6,16 @@
   "module": "dist/vue-ui.es.js",
   "browser": "dist/vue-ui.umd.js",
   "exports": {
-    "./dist/index.css": "./dist/components.css",
-    "./index.css": "./dist/components.css",
+    "./dist/index.css": "./dist/vue-ui.css",
+    "./index.css": "./dist/vue-ui.css",
     ".": {
       "import": "./dist/vue-ui.es.js",
       "require": "./dist/vue-ui.cjs.js"
     }
   },
   "scripts": {
-    "dev": ""
+    "dev": "rimraf dist && rollup -cw",
+    "build": "rimraf dist && rollup -c"
   },
   "repository": {
     "type": "git",
@@ -36,5 +37,17 @@
     "package.json",
     "README.md"
   ],
-  "homepage": "https://github.com/chuxin-cs/vue-ui#readme"
+  "homepage": "https://github.com/chuxin-cs/vue-ui#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "rimraf": "^6.0.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue": "2",
+    "vue-template-compiler": "^2.7.16"
+  },
+  "dependencies": {
+    "rollup": "^4.34.6"
+  }
 }
