@@ -2,6 +2,17 @@
   "name": "@chu-xin/vue-ui",
   "version": "1.0.0",
   "description": "A is Vue\"2 Business Component Library",
+  "main": "dist/vue-ui.cjs.js",
+  "module": "dist/vue-ui.es.js",
+  "browser": "dist/vue-ui.umd.js",
+  "exports": {
+    "./dist/index.css": "./dist/components.css",
+    "./index.css": "./dist/components.css",
+    ".": {
+      "import": "./dist/vue-ui.es.js",
+      "require": "./dist/vue-ui.cjs.js"
+    }
+  },
   "scripts": {
     "dev": ""
   },
